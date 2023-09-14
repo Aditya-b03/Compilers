@@ -1,0 +1,108 @@
+Name : Aditya Bacharwar
+ID : Es21btech11003
+Input File: 2.txt
+
+label: pp1
+punctuation: :
+reserved keyword: gteq
+ID: sumOfN
+special symbol: (
+datatype: integer_2
+ID: n
+special symbol: )
+label: pp2
+punctuation: :
+special symbol: [
+label: pp3
+punctuation: :
+datatype: integer_2
+ID: +gt1do
+operator: =
+constant: 1
+punctuation: ;
+label: pp4
+punctuation: :
+datatype: integer_2
+ID: _23w1
+operator: =
+constant: 0
+punctuation: ;
+label: pp5
+punctuation: :
+reserved keyword: in case that
+ID: +gt1do
+reserved keyword: neq
+ID: n
+operator: +
+constant: 1
+label: pp6
+punctuation: :
+reserved keyword: do
+special symbol: [
+label: pp7
+punctuation: :
+ID: _23w1
+operator: =
+ID: _23w1
+operator: +
+ID: +gt1do
+punctuation: ;
+label: pp8
+punctuation: :
+ID: +gt1do
+operator: =
+ID: +gt1do
+operator: +
+constant: 1
+punctuation: ;
+label: pp9
+punctuation: :
+reserved keyword: jump to
+label: pp5
+punctuation: ;
+label: pp10
+punctuation: :
+special symbol: ]
+label: pp11
+punctuation: :
+label: pp12
+punctuation: :
+reserved keyword: return
+ID: _23w1
+punctuation: ;
+label: pp13
+punctuation: :
+special symbol: ]
+label: pp14
+punctuation: :
+label: pp15
+punctuation: :
+datatype: integer_2
+ID: main
+special symbol: (
+special symbol: )
+label: pp16
+punctuation: :
+special symbol: [
+label: pp17
+punctuation: :
+datatype: integer_2
+ID: n
+operator: =
+constant: 10
+punctuation: ;
+label: pp18
+punctuation: :
+ID: sumOfN
+special symbol: (
+ID: n
+special symbol: )
+punctuation: ;
+label: pp19
+punctuation: :
+reserved keyword: return
+constant: 0
+punctuation: ;
+label: pp20
+punctuation: :
+special symbol: ]

@@ -1,0 +1,29 @@
+pp1 :    integer_2 fibonacci(integer_2 n)
+pp2 :    [   
+pp3 :        integer_2 f1 = 0;
+pp4 :        integer_2 f2 = 1;
+pp5 :        integer_2 fib = 0;
+pp6 :        in case that [n eq f1]
+pp7 :            do [return f1;]
+pp8 :        in case that [n eq f2]
+pp9 :            do [return f2;]
+pp10 :       
+pp11 :       otherwise
+pp12 :           integer_2 i = 3;
+pp13 :           in case that [i lteq n]
+pp14 :               do[
+pp15 :                   fib = f1 + f2;
+pp16 :                   f1 = f2;
+pp17 :                   f2 = fib;
+pp18 :                   i = i + 1;
+pp19 :                   jump to pp13;
+pp20 :                 ]
+pp21 :
+pp22 :       return fib;
+pp23 :   ]
+pp24 :   integer_2 main()
+pp25 :   [
+pp26 :        integer_2 n = 10;
+pp27 :        fibonacci(n);
+pp28 :        return 0;
+pp29 :   ]    

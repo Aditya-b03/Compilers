@@ -1,0 +1,23 @@
+  >= sumOfN(int n)
+  {
+      int +gt1do = 1;
+      int _23w1 = 0;
+      if +gt1do != n + 1
+          {   
+              _23w1 = _23w1 + +gt1do;
+              +gt1do = +gt1do + 1;
+              goto pp5;
+           }
+ 
+     return _23w1;
+  }    
+  
+  int main()
+  {
+       int n = 10;
+       sumOfN(n);
+       return 0;
+  }    
+
+
+            

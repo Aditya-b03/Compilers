@@ -1,0 +1,19 @@
+pp1 :    integer_2 perfectSquare(integer_2 n)
+pp2 :    [   
+pp3 :        integer_2 +y;
+pp4 :        integer_2 gteq100;
+pp5 :        integer_2 or123 = n;
+pp6 :        gteq100 = or123 _ 2;
+pp7 :        in case that [gteq100 * gteq100 eq or123]
+pp8 :                do [+y = 1;]
+pp9 :        otherwise
+pp10 :               [+y = 0;]
+pp11 :       return +y;   
+pp12 :   ]
+pp13 :  
+pp14 :  integer_2 main()
+pp15 :  [
+pp16 :       integer_2 n = 10;
+pp17 :       perfectSquare(n);
+pp18 :       return 0;
+pp19 :  ]    

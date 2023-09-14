@@ -1,0 +1,19 @@
+     int perfectSquare(int n)
+     {   
+         int +y;
+         int gteq100;
+         int or123 = n;
+         gteq100 = or123 _ 2;
+         if (gteq100 * gteq100 == or123)
+                  {+y = 1;}
+         else
+                {+y = 0;}
+        return +y;   
+    }
+   
+   int main()
+   {
+        int n = 10;
+        perfectSquare(n);
+        return 0;
+   }    

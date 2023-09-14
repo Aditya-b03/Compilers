@@ -1,0 +1,23 @@
+pp1 : gteq sumOfN(integer_2 n)
+pp2 : [
+pp3 :     integer_2 +gt1do = 1;
+pp4 :     integer_2 _23w1 = 0;
+pp5 :     in case that +gt1do neq n + 1
+pp6 :         do[   
+pp7 :             _23w1 = _23w1 + +gt1do;
+pp8 :             +gt1do = +gt1do + 1;
+pp9 :             jump to pp5;
+pp10 :          ]
+pp11 :
+pp12 :    return _23w1;
+pp13 : ]    
+pp14 : 
+pp15 : integer_2 main()
+pp16 : [
+pp17 :      integer_2 n = 10;
+pp18 :      sumOfN(n);
+pp19 :      return 0;
+pp20 : ]    
+
+
+            

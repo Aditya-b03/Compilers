@@ -1,0 +1,169 @@
+Name : Aditya Bacharwar
+ID : Es21btech11003
+Input File: 3.txt
+
+label: pp1
+punctuation: :
+datatype: integer_2
+ID: fibonacci
+special symbol: (
+datatype: integer_2
+ID: n
+special symbol: )
+label: pp2
+punctuation: :
+special symbol: [
+label: pp3
+punctuation: :
+datatype: integer_2
+ID: f1
+operator: =
+constant: 0
+punctuation: ;
+label: pp4
+punctuation: :
+datatype: integer_2
+ID: f2
+operator: =
+constant: 1
+punctuation: ;
+label: pp5
+punctuation: :
+datatype: integer_2
+ID: fib
+operator: =
+constant: 0
+punctuation: ;
+label: pp6
+punctuation: :
+reserved keyword: in case that
+special symbol: [
+ID: n
+reserved keyword: eq
+ID: f1
+special symbol: ]
+label: pp7
+punctuation: :
+reserved keyword: do
+special symbol: [
+reserved keyword: return
+ID: f1
+punctuation: ;
+special symbol: ]
+label: pp8
+punctuation: :
+reserved keyword: in case that
+special symbol: [
+ID: n
+reserved keyword: eq
+ID: f2
+special symbol: ]
+label: pp9
+punctuation: :
+reserved keyword: do
+special symbol: [
+reserved keyword: return
+ID: f2
+punctuation: ;
+special symbol: ]
+label: pp10
+punctuation: :
+label: pp11
+punctuation: :
+reserved keyword: otherwise
+label: pp12
+punctuation: :
+datatype: integer_2
+ID: i
+operator: =
+constant: 3
+punctuation: ;
+label: pp13
+punctuation: :
+reserved keyword: in case that
+special symbol: [
+ID: i
+reserved keyword: lteq
+ID: n
+special symbol: ]
+label: pp14
+punctuation: :
+reserved keyword: do
+special symbol: [
+label: pp15
+punctuation: :
+ID: fib
+operator: =
+ID: f1
+operator: +
+ID: f2
+punctuation: ;
+label: pp16
+punctuation: :
+ID: f1
+operator: =
+ID: f2
+punctuation: ;
+label: pp17
+punctuation: :
+ID: f2
+operator: =
+ID: fib
+punctuation: ;
+label: pp18
+punctuation: :
+ID: i
+operator: =
+ID: i
+operator: +
+constant: 1
+punctuation: ;
+label: pp19
+punctuation: :
+reserved keyword: jump to
+label: pp13
+punctuation: ;
+label: pp20
+punctuation: :
+special symbol: ]
+label: pp21
+punctuation: :
+label: pp22
+punctuation: :
+reserved keyword: return
+ID: fib
+punctuation: ;
+label: pp23
+punctuation: :
+special symbol: ]
+label: pp24
+punctuation: :
+datatype: integer_2
+ID: main
+special symbol: (
+special symbol: )
+label: pp25
+punctuation: :
+special symbol: [
+label: pp26
+punctuation: :
+datatype: integer_2
+ID: n
+operator: =
+constant: 10
+punctuation: ;
+label: pp27
+punctuation: :
+ID: fibonacci
+special symbol: (
+ID: n
+special symbol: )
+punctuation: ;
+label: pp28
+punctuation: :
+reserved keyword: return
+constant: 0
+punctuation: ;
+label: pp29
+punctuation: :
+special symbol: ]

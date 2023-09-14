@@ -1,0 +1,29 @@
+     int fibonacci(int n)
+     {   
+         int f1 = 0;
+         int f2 = 1;
+         int fib = 0;
+         if (n == f1)
+              {return f1;}
+         if (n == f2)
+              {return f2;}
+        
+        else
+            int i = 3;
+            if (i <= n)
+                {
+                    fib = f1 + f2;
+                    f1 = f2;
+                    f2 = fib;
+                    i = i + 1;
+                    goto pp13;
+                  }
+ 
+        return fib;
+    }
+    int main()
+    {
+         int n = 10;
+         fibonacci(n);
+         return 0;
+    }    
