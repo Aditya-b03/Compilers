@@ -1,0 +1,279 @@
+Name : Aditya Bacharwar
+ID : Es21btech11003
+Input File: 2.clike
+
+reserved keyword: class
+ID: class_Node
+special symbol: [
+constant: 2
+special symbol: ]
+special symbol: {
+reserved keyword: declare
+datatype: int
+ID: data
+punctuation: ;
+reserved keyword: declare
+ID: class_Node
+ID: next
+punctuation: ;
+reserved keyword: local
+datatype: void
+ID: node
+special symbol: (
+special symbol: )
+special symbol: {
+reserved keyword: return
+datatype: void
+punctuation: ;
+special symbol: }
+reserved keyword: local
+datatype: void
+ID: node
+special symbol: (
+datatype: int
+ID: val
+special symbol: )
+special symbol: {
+reserved keyword: expr
+ID: data
+operator: =
+ID: val
+punctuation: ;
+reserved keyword: expr
+ID: next
+operator: =
+ID: NULL
+punctuation: ;
+reserved keyword: return
+datatype: void
+punctuation: ;
+special symbol: }
+special symbol: }
+reserved keyword: class
+ID: class_List
+special symbol: [
+constant: 3
+special symbol: ]
+special symbol: {
+reserved keyword: declare
+ID: class_Node
+ID: head
+punctuation: ;
+reserved keyword: local
+datatype: void
+ID: list
+special symbol: (
+special symbol: )
+special symbol: {
+reserved keyword: expr
+ID: head
+operator: =
+ID: NULL
+punctuation: ;
+reserved keyword: return
+datatype: void
+punctuation: ;
+special symbol: }
+reserved keyword: local
+datatype: void
+ID: append
+special symbol: [
+constant: 1
+special symbol: ]
+special symbol: (
+datatype: int
+ID: val
+special symbol: )
+special symbol: {
+reserved keyword: declare
+ID: class_Node
+ID: a
+punctuation: ;
+reserved keyword: expr
+ID: a
+operator: ->
+ID: data
+operator: =
+ID: val
+punctuation: ;
+reserved keyword: expr
+ID: a
+operator: ->
+ID: next
+operator: =
+ID: NULL
+punctuation: ;
+reserved keyword: in case that
+special symbol: (
+special symbol: (
+ID: head
+reserved keyword: eq
+ID: NULL
+special symbol: )
+reserved keyword: or
+ID: head
+reserved keyword: ne
+ID: NULL
+special symbol: )
+reserved keyword: do
+special symbol: {
+reserved keyword: expr
+ID: head
+operator: =
+ID: a
+punctuation: ;
+reserved keyword: return
+datatype: void
+punctuation: ;
+special symbol: }
+reserved keyword: declare
+ID: class_Node
+ID: temp
+punctuation: ;
+reserved keyword: expr
+ID: temp
+operator: =
+ID: head
+punctuation: ;
+reserved keyword: loop
+reserved keyword: while
+special symbol: (
+ID: temp
+operator: ->
+ID: next
+reserved keyword: ne
+ID: NULL
+special symbol: )
+reserved keyword: do
+special symbol: {
+reserved keyword: expr
+ID: temp
+operator: =
+ID: temp
+operator: ->
+ID: next
+punctuation: ;
+reserved keyword: expr
+ID: temp
+operator: =
+ID: NULL
+punctuation: ;
+special symbol: }
+reserved keyword: return
+datatype: void
+punctuation: ;
+special symbol: }
+reserved keyword: local
+ID: class_Node
+ID: print
+special symbol: (
+special symbol: )
+special symbol: {
+reserved keyword: declare
+ID: class_Node
+ID: temp
+punctuation: ;
+reserved keyword: expr
+ID: temp
+operator: =
+ID: head
+punctuation: ;
+reserved keyword: loop
+reserved keyword: while
+special symbol: (
+ID: temp
+operator: ->
+ID: next
+reserved keyword: ne
+ID: NULL
+special symbol: )
+reserved keyword: do
+special symbol: {
+reserved keyword: expr
+ID: temp
+operator: =
+ID: temp
+operator: ->
+ID: next
+punctuation: ;
+special symbol: }
+reserved keyword: return
+ID: head
+punctuation: ;
+special symbol: }
+special symbol: }
+reserved keyword: global
+datatype: int
+ID: main
+special symbol: (
+special symbol: )
+special symbol: {
+reserved keyword: declare
+ID: class_List
+ID: l
+punctuation: ;
+reserved keyword: call
+ID: l
+operator: ->
+ID: append
+special symbol: [
+constant: 1
+special symbol: ]
+special symbol: (
+constant: 2
+special symbol: )
+punctuation: ;
+reserved keyword: call
+ID: l
+operator: ->
+ID: append
+special symbol: [
+constant: 1
+special symbol: ]
+special symbol: (
+constant: 20
+special symbol: )
+punctuation: ;
+reserved keyword: call
+ID: l
+operator: ->
+ID: append
+special symbol: [
+constant: 1
+special symbol: ]
+special symbol: (
+constant: 200
+special symbol: )
+punctuation: ;
+reserved keyword: call
+ID: l
+operator: ->
+ID: append
+special symbol: [
+constant: 1
+special symbol: ]
+special symbol: (
+constant: 2000
+special symbol: )
+punctuation: ;
+reserved keyword: call
+ID: l
+operator: ->
+ID: print
+special symbol: (
+special symbol: )
+punctuation: ;
+reserved keyword: return
+operator: add
+special symbol: (
+constant: 0
+punctuation: ,
+operator: sub
+special symbol: (
+constant: 0
+punctuation: ,
+constant: 0
+special symbol: )
+special symbol: )
+punctuation: ;
+special symbol: }

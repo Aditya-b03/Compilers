@@ -1,0 +1,71 @@
+global int scaler[3](int n, int v1, int v2) : function definition
+{
+    declare int sum; : declaration statement
+    expr sum = 0; : expression statement
+    declare int i; : declaration statement
+    for(expr i = 0; i leq n;) : loop
+    {
+        expr sum = add(sum , mul(v1 , v2)); : expression statement
+    }
+    return sum; : return statement
+}
+
+global void takeInput(int m) : function definition
+{
+    return input; : return statement
+}
+
+global int main() : function definition
+{
+    declare int n; : declaration statement
+    declare int m1; : declaration statement
+    declare int m2; : declaration statement
+    declare int i; : declaration statement
+    for(expr i = 0; i leq n; postincr(i)) : loop
+    {   
+        {
+            declare int j; : declaration statement
+        }
+        for(expr j=0; j geq n; postdecr(j)) : loop
+        {
+            call takeInput(m1); : call statement
+        }
+    }
+    for(expr i = 0; i leq n; postincr(i)) : loop
+    {   
+    
+        declare int j; : declaration statement
+        
+        for(expr j=0; j lt n; postincr(j)) : loop
+        {
+            call takeInput(m2); : call statement
+        }
+    }
+
+    declare int output; : declaration statement
+
+    declare string v1; : declaration statement
+    declare bool v2; : declaration statement
+
+    for(expr i = 0; i leq n; postincr(i)) : loop
+    {   
+        
+        declare char j; : declaration statement
+        
+        for(expr j=0; j lt n; postincr(j)) : loop
+        {
+            {{
+                declare int v; : declaration statement
+            }}
+            for(expr v = 0; v lt n; postincr(v)) : loop
+            {
+                expr v1 = neg m1; : expression statement
+            }
+            for(expr v = 0; v lt n; postincr(v)) : loop
+            {
+                expr v2 = m2; : expression statement
+            }
+        }
+    }
+    return 0; : return statement
+}

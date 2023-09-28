@@ -1,0 +1,78 @@
+class class_Node[2] : class definition
+{
+    declare int data; : declaration statement
+    declare class_Node next; : declaration statement
+
+    local void node() : function definition
+    {
+        return void; : return statement
+    }
+
+    local void node(int val) : function definition
+    {
+        expr data = val; : expression statement
+        expr next = NULL; : expression statement
+        return void; : return statement
+    }
+
+}
+
+class class_List[3] : class definition
+{
+    declare class_Node head; : declaration statement
+
+    local void list() : function definition
+    {
+        expr head = NULL; : expression statement
+        return void; : return statement
+    }
+
+    local void append[1](int val) : function definition
+    {
+
+        declare class_Node a; : declaration statement
+        expr a->data = val; : expression statement
+        expr a->next = NULL; : expression statement
+
+        in case that((head eq NULL) or head ne NULL) : conditional statement
+        do
+        {
+            expr head = a; : expression statement
+            return void; : return statement
+        }
+
+        declare class_Node temp; : declaration statement
+        expr temp = head; : expression statement
+        loop while(temp -> next ne NULL) : loop
+        do
+        {
+            expr temp = temp->next; : expression statement
+            expr temp = NULL; : expression statement
+        }
+        return void; : return statement
+    }
+
+    local class_Node print() : function definition{
+        declare class_Node temp; : declaration statement
+        expr temp = head; : expression statement
+        loop while(temp -> next ne NULL) : loop
+        do
+        {
+            expr temp = temp->next; : expression statement
+        }
+        return head; : return statement
+    }
+}
+
+global int main() : function definition
+{
+    declare class_List l; : declaration statement
+    call l->append[1](2); : call statement with object
+    call l->append[1](20); : call statement with object
+    call l->append[1](200); : call statement with object
+    call l->append[1](2000); : call statement with object
+    call l->print(); : call statement with object
+
+    return add(0,sub(0,0)); : return statement
+}
+

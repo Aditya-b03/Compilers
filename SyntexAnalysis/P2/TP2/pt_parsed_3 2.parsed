@@ -1,0 +1,24 @@
+global int NcR[2](int n, int r) : function definition
+{
+    in case that(r gt sub(n,r)) : conditional statement
+    do
+    {
+        expr r = sub(n,r); : expression statement
+    }
+
+    declare int ans; : declaration statement
+    expr ans = 1; : expression statement
+    declare int i; : declaration statement
+
+    for(expr i = 1; i leq r; postincr(i)) : loop
+    {
+        expr ans = div(mul(ans,add(sub(n,r),i)),i); : expression statement
+    }
+
+    return ans; : return statement
+} 
+
+global int main() : function definition
+{
+    return call NcR[2](200,100); : return statement
+}
