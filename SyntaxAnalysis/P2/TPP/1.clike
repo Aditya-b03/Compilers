@@ -1,0 +1,71 @@
+global int scaler[3](int n, int v1, int v2)
+{
+    declare int sum;
+    expr sum = 0;
+    declare int i;
+    for(expr i = 0; i leq n;)
+    {
+        expr sum = add(sum , mul(v1 , v2));
+    }
+    return sum;
+}
+
+global void takeInput(int m)
+{
+    return input;
+}
+
+global int main()
+{
+    declare int n;
+    declare int m1;
+    declare int m2;
+    declare int i;
+    for(expr i = 0; i leq n; postincr(i))
+    {   
+        {
+            declare int j;
+        }
+        for(expr j=0; j geq n; postdecr(j))
+        {
+            call takeInput(m1);
+        }
+    }
+    for(expr i = 0; i leq n; postincr(i))
+    {   
+    
+        declare int j;
+        
+        for(expr j=0; j lt n; postincr(j))
+        {
+            call takeInput(m2);
+        }
+    }
+
+    declare int output;
+
+    declare string v1;
+    declare bool v2;
+
+    for(expr i = 0; i leq n; postincr(i))
+    {   
+        
+        declare char j;
+        
+        for(expr j=0; j lt n; postincr(j))
+        {
+            {{
+                declare int v;
+            }}
+            for(expr v = 0; v lt n; postincr(v))
+            {
+                expr v1 = neg m1;
+            }
+            for(expr v = 0; v lt n; postincr(v))
+            {
+                expr v2 = m2;
+            }
+        }
+    }
+    return 0;
+}

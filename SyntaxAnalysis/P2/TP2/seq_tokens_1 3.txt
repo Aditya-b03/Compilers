@@ -1,0 +1,305 @@
+Name : Aditya Bacharwar
+ID : Es21btech11003
+Input File: 1.clike
+
+reserved keyword: global
+datatype: int
+ID: scaler
+special symbol: [
+constant: 3
+special symbol: ]
+special symbol: (
+datatype: int
+ID: n
+punctuation: ,
+datatype: int
+ID: *v1
+punctuation: ,
+datatype: int
+ID: *v2
+special symbol: )
+special symbol: {
+reserved keyword: declare
+datatype: int
+ID: sum
+punctuation: ;
+reserved keyword: expr
+ID: sum
+operator: =
+constant: 0
+punctuation: ;
+reserved keyword: declare
+datatype: int
+ID: i
+punctuation: ;
+reserved keyword: for
+special symbol: (
+reserved keyword: expr
+ID: i
+operator: =
+constant: 0
+punctuation: ;
+ID: i
+reserved keyword: leq
+ID: n
+punctuation: ;
+special symbol: )
+special symbol: {
+reserved keyword: expr
+ID: sum
+operator: =
+operator: add
+special symbol: (
+ID: sum
+punctuation: ,
+operator: mul
+special symbol: (
+ID: v1
+punctuation: ,
+ID: v2
+special symbol: )
+special symbol: )
+punctuation: ;
+special symbol: }
+reserved keyword: return
+ID: sum
+punctuation: ;
+special symbol: }
+reserved keyword: global
+datatype: void
+ID: takeInput
+special symbol: (
+datatype: int
+ID: m
+special symbol: )
+special symbol: {
+reserved keyword: return
+ID: input
+punctuation: ;
+special symbol: }
+reserved keyword: global
+datatype: int
+ID: main
+special symbol: (
+special symbol: )
+special symbol: {
+reserved keyword: declare
+datatype: int
+ID: n
+punctuation: ;
+reserved keyword: declare
+datatype: int
+ID: m1
+punctuation: ;
+reserved keyword: declare
+datatype: int
+ID: m2
+punctuation: ;
+reserved keyword: declare
+datatype: int
+ID: i
+punctuation: ;
+reserved keyword: for
+special symbol: (
+reserved keyword: expr
+ID: i
+operator: =
+constant: 0
+punctuation: ;
+ID: i
+reserved keyword: leq
+ID: n
+punctuation: ;
+operator: postincr
+special symbol: (
+ID: i
+special symbol: )
+special symbol: )
+special symbol: {
+special symbol: {
+reserved keyword: declare
+datatype: int
+ID: j
+punctuation: ;
+special symbol: }
+reserved keyword: for
+special symbol: (
+reserved keyword: expr
+ID: j
+operator: =
+constant: 0
+punctuation: ;
+ID: j
+reserved keyword: geq
+ID: n
+punctuation: ;
+operator: postdecr
+special symbol: (
+ID: j
+special symbol: )
+special symbol: )
+special symbol: {
+reserved keyword: call
+ID: takeInput
+special symbol: (
+ID: m1
+special symbol: )
+punctuation: ;
+special symbol: }
+special symbol: }
+reserved keyword: for
+special symbol: (
+reserved keyword: expr
+ID: i
+operator: =
+constant: 0
+punctuation: ;
+ID: i
+reserved keyword: leq
+ID: n
+punctuation: ;
+operator: postincr
+special symbol: (
+ID: i
+special symbol: )
+special symbol: )
+special symbol: {
+reserved keyword: declare
+datatype: int
+ID: j
+punctuation: ;
+reserved keyword: for
+special symbol: (
+reserved keyword: expr
+ID: j
+operator: =
+constant: 0
+punctuation: ;
+ID: j
+reserved keyword: lt
+ID: n
+punctuation: ;
+operator: postincr
+special symbol: (
+ID: j
+special symbol: )
+special symbol: )
+special symbol: {
+reserved keyword: call
+ID: takeInput
+special symbol: (
+ID: m2
+special symbol: )
+punctuation: ;
+special symbol: }
+special symbol: }
+reserved keyword: declare
+datatype: int
+ID: output
+punctuation: ;
+reserved keyword: declare
+datatype: string
+ID: v1
+punctuation: ;
+reserved keyword: declare
+datatype: bool
+ID: v2
+punctuation: ;
+reserved keyword: for
+special symbol: (
+reserved keyword: expr
+ID: i
+operator: =
+constant: 0
+punctuation: ;
+ID: i
+reserved keyword: leq
+ID: n
+punctuation: ;
+operator: postincr
+special symbol: (
+ID: i
+special symbol: )
+special symbol: )
+special symbol: {
+reserved keyword: declare
+datatype: char
+ID: j
+punctuation: ;
+reserved keyword: for
+special symbol: (
+reserved keyword: expr
+ID: j
+operator: =
+constant: 0
+punctuation: ;
+ID: j
+reserved keyword: lt
+ID: n
+punctuation: ;
+operator: postincr
+special symbol: (
+ID: j
+special symbol: )
+special symbol: )
+special symbol: {
+special symbol: {
+special symbol: {
+reserved keyword: declare
+datatype: int
+ID: v
+punctuation: ;
+special symbol: }
+special symbol: }
+reserved keyword: for
+special symbol: (
+reserved keyword: expr
+ID: v
+operator: =
+constant: 0
+punctuation: ;
+ID: v
+reserved keyword: lt
+ID: n
+punctuation: ;
+operator: postincr
+special symbol: (
+ID: v
+special symbol: )
+special symbol: )
+special symbol: {
+reserved keyword: expr
+ID: v1
+operator: =
+ID: m1
+punctuation: ;
+special symbol: }
+reserved keyword: for
+special symbol: (
+reserved keyword: expr
+ID: v
+operator: =
+constant: 0
+punctuation: ;
+ID: v
+reserved keyword: lt
+ID: n
+punctuation: ;
+operator: postincr
+special symbol: (
+ID: v
+special symbol: )
+special symbol: )
+special symbol: {
+reserved keyword: expr
+ID: v2
+operator: =
+ID: m2
+punctuation: ;
+special symbol: }
+special symbol: }
+special symbol: }
+reserved keyword: return
+constant: 0
+punctuation: ;
+special symbol: }
